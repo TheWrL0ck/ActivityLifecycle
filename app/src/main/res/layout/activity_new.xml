@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgTony"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:src="@drawable/tony_stark"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/txtTName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tony Stark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        android:layout_toRightOf="@id/imgTony" />
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tony@industries.com"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginRight="15sp"
+        android:layout_toRightOf="@id/imgTony"
+        android:layout_below="@id/txtTName" />
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 1234567890"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgTony"
+        android:layout_below="@id/txtEmail"/>
+    <ImageView
+        android:id="@+id/imgSteve"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:src="@drawable/steve"
+        android:layout_below="@id/imgTony"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/txtSName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steve Rogers"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50sp"
+        android:layout_below="@id/txtPhone"
+        android:layout_toRightOf="@id/imgSteve" />
+    <TextView
+        android:id="@+id/txtSEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tony@industries.com"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginRight="15sp"
+        android:layout_toRightOf="@id/imgSteve"
+        android:layout_below="@id/txtSName" />
+    <TextView
+        android:id="@+id/txtSPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 1234567890"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgSteve"
+        android:layout_below="@id/txtSEmail"/>
+    <ImageView
+        android:id="@+id/imgHulk"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:src="@drawable/hulk"
+        android:layout_below="@id/imgSteve"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/txtHName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bruce Banner"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="35sp"
+        android:layout_below="@id/txtSPhone"
+        android:layout_toRightOf="@id/imgHulk" />
+    <TextView
+        android:id="@+id/txtHEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tony@industries.com"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginRight="15sp"
+        android:layout_toRightOf="@id/imgHulk"
+        android:layout_below="@id/txtHName" />
+    <TextView
+        android:id="@+id/txtHPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 1234567890"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imgHulk"
+        android:layout_below="@id/txtHEmail"/>
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG OUT"
+        android:background="#c2185b"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@id/imgHulk"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
